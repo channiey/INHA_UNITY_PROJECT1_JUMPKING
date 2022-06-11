@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: pickup_Projectile
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"name":null},"position":{"x":58.0,"y":-34.0},"guid":"8a2b6580-2669-4548-9fba-b77d05bcfbbc","$version":"A","$type":"Bolt.SuperUnit","$id":"9"},{"type":"System.String","value":{"$content":"HasProjectSunder","$type":"System.String"},"defaultValues":{},"position":{"x":-161.0,"y":-44.0},"guid":"7cdcc064-09d8-4e6a-ba20-acb00fddad21","$version":"A","$type":"Bolt.Literal","$id":"12"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"name","guid":"9ba8f4bc-f4c4-41bd-8213-1756bc09410b","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 8fe9fd0ea88eca94a8ad7fe2707325ef, type: 2}

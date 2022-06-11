@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ch_Player_JumpCount
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":424.2156,"y":-37.62495},"zoom":1.0,"elements":[{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"JunpCnt","$type":"System.String"}},"position":{"x":76.0,"y":25.0},"guid":"dadbaf6c-1d83-455b-965e-32907ece9540","$version":"A","$type":"Bolt.GetVariable","$id":"9"},{"kind":"Scene","defaultValues":{"name":{"$content":"JunpCnt","$type":"System.String"}},"position":{"x":476.0,"y":-120.0},"guid":"b07e8aff-fede-4b66-9128-da41a14d1559","$version":"A","$type":"Bolt.SetVariable","$id":"11"},{"defaultValues":{"b":{"$content":1.0,"$type":"System.Single"}},"position":{"x":264.0,"y":30.0},"guid":"703efd12-0985-4cfc-a01e-7a86c4946200","$version":"A","$type":"Bolt.ScalarAdd","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"a","guid":"ffba8318-1adb-423e-be72-f795a0397e08","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"sum","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"e24c6479-0ca6-413c-9408-a6f7001a8796","$type":"Bolt.ValueConnection"},{"position":{"xMin":-23.0,"yMin":-275.0,"xMax":655.0,"yMax":189.0},"label":"ch_Player_JumpCount_update","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"72f0e22b-1be7-4e5b-8f64-91c5d77d339b","$version":"A","$type":"Ludiq.GraphGroup"},{"position":{"xMin":832.0,"yMin":113.0,"xMax":1055.0,"yMax":177.0},"label":"Group","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"73ced8fc-dad6-4a55-8163-3eb7681e21f1","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
