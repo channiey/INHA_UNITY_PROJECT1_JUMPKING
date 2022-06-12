@@ -14,6 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"PlayTime","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"JunpCnt","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"GameTime","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Final
-      Play Time","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Sound","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 6202059276268898066, guid: 461883fe2feedf84aab8d228a9622c66, type: 3}
+      Play Time","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
