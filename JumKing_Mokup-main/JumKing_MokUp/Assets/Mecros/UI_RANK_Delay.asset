@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1083378141, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: UI_RANK_Delay
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Start","summary":null,"pan":{"x":183.0,"y":-2410.865},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-205.0,"y":-215.0},"guid":"85139b5c-01bd-4063-a29a-bfe7887074b0","$version":"A","$type":"Bolt.OnEnterState","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Delay","$type":"System.String"},"object":null},"position":{"x":-120.0,"y":61.0},"guid":"8b2e5f98-3ec8-4a0a-9589-a59906319614","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"defaultValues":{"seconds":{"$content":0.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":120.0,"y":-180.0},"guid":"f6516306-dfd9-4121-8690-c3baf7cee591","$version":"A","$type":"Bolt.WaitForSecondsUnit","$id":"17"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"6a115824-a233-451b-bacd-98210504522f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"seconds","guid":"93a15c7e-6247-4e33-acc8-21f4bd8a27b4","$type":"Bolt.ValueConnection"}],"$version":"A"}},"isStart":true,"position":{"x":-317.0,"y":-138.0},"width":170.0,"guid":"4ef62d3e-f2d8-467e-b59c-f95a348ac24d","$version":"A","$type":"Bolt.FlowState"}],"$version":"A"}}'
+    _objectReferences: []

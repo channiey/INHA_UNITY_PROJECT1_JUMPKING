@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Projectile
   - Platform
+  - Text
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - Wall
   - SlidingPlatform
   - Test
-  - 
+  - Player
   - 
   - 
   - 
